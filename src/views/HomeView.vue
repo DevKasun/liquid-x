@@ -1,9 +1,12 @@
-<script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <main>
-    <TheWelcome />
+    <div class="hero-main">
+      <div class="hero-main-content">
+        <h1>Liquid X</h1>
+        <p>Liquid X is a platform for creating and sharing liquid designs.</p>
+      </div>
+    </div>
   </main>
 </template>
