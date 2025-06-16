@@ -11,9 +11,20 @@
 *::after {
   box-sizing: border-box;
   margin: 0;
+  font-size: 16px;
   font-weight: normal;
 }
 
 body {
+  font-family: 'Inter', sans-serif;
   min-height: 100vh;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+ul {
+  list-style: none;
 }
