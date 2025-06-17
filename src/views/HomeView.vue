@@ -82,6 +82,12 @@
     margin: 0 auto;
     padding: 20px;
 
+    @media (max-width: 768px) {
+      align-items: stretch;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
     figure {
       position: relative;
       flex: 1;
@@ -93,6 +99,16 @@
         position: relative;
         z-index: 2;
         border-radius: 1rem;
+      }
+
+      @media (max-width: 768px) {
+        max-height: 200px;
+        img {
+          max-height: inherit;
+          width: 100%;
+          object-fit: cover;
+          object-position: top;
+        }
       }
 
       &:before {
@@ -125,6 +141,10 @@
       display: flex;
       flex-direction: column;
       gap: 2rem;
+
+      @media (max-width: 768px) {
+        gap: 1rem;
+      }
     }
 
     .hero-main-content {
@@ -179,6 +199,10 @@
         list-style: none;
         padding: 0;
         margin: 0;
+
+        @media (max-width: 768px) {
+          flex-direction: column;
+        }
 
         li {
           flex: 1;
